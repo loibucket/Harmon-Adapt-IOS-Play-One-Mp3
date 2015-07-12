@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8294BF181B516F3000FDCC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294BF171B516F3000FDCC86 /* AppDelegate.swift */; };
+		8294BF1A1B516F3000FDCC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294BF191B516F3000FDCC86 /* ViewController.swift */; };
+		8294BF1D1B516F3000FDCC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8294BF1B1B516F3000FDCC86 /* Main.storyboard */; };
+		8294BF1F1B516F3000FDCC86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8294BF1E1B516F3000FDCC86 /* Images.xcassets */; };
+		8294BF221B516F3000FDCC86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8294BF201B516F3000FDCC86 /* LaunchScreen.xib */; };
+		8294BF2E1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294BF2D1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.swift */; };
+		8294BF541B517A6D00FDCC86 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8294BF531B517A6D00FDCC86 /* libbz2.dylib */; };
+		8294BF561B517A7400FDCC86 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8294BF551B517A7400FDCC86 /* libz.dylib */; };
+		8294BF9F1B51A78F00FDCC86 /* libHKWirelessHD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8294BF9C1B51A78F00FDCC86 /* libHKWirelessHD.a */; };
+		8294BFA01B51A78F00FDCC86 /* License-iOS-Omni.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8294BF9D1B51A78F00FDCC86 /* License-iOS-Omni.pdf */; };
+		8294BFA11B51A78F00FDCC86 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8294BF9E1B51A78F00FDCC86 /* README.md */; };
+		8294BFA51B51DC5B00FDCC86 /* mp3file.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8294BFA41B51DC5B00FDCC86 /* mp3file.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8294BF281B516F3000FDCC86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8294BF0A1B516F3000FDCC86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8294BF111B516F3000FDCC86;
+			remoteInfo = ATT_Hackathon_Boston_2015;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8294BF121B516F3000FDCC86 /* ATT_Hackathon_Boston_2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATT_Hackathon_Boston_2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8294BF161B516F3000FDCC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8294BF171B516F3000FDCC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8294BF191B516F3000FDCC86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8294BF1C1B516F3000FDCC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8294BF1E1B516F3000FDCC86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8294BF211B516F3000FDCC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8294BF271B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATT_Hackathon_Boston_2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8294BF2C1B516F3000FDCC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8294BF2D1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATT_Hackathon_Boston_2015Tests.swift; sourceTree = "<group>"; };
+		8294BF531B517A6D00FDCC86 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		8294BF551B517A7400FDCC86 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8294BF571B517B7600FDCC86 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		8294BF961B51A78F00FDCC86 /* DeviceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceGroup.h; sourceTree = "<group>"; };
+		8294BF971B51A78F00FDCC86 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		8294BF981B51A78F00FDCC86 /* HKWControlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKWControlHandler.h; sourceTree = "<group>"; };
+		8294BF991B51A78F00FDCC86 /* HKWDeviceEventHandlerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKWDeviceEventHandlerSingleton.h; sourceTree = "<group>"; };
+		8294BF9A1B51A78F00FDCC86 /* HKWPlayerEventHandlerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKWPlayerEventHandlerSingleton.h; sourceTree = "<group>"; };
+		8294BF9C1B51A78F00FDCC86 /* libHKWirelessHD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHKWirelessHD.a; sourceTree = "<group>"; };
+		8294BF9D1B51A78F00FDCC86 /* License-iOS-Omni.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "License-iOS-Omni.pdf"; sourceTree = "<group>"; };
+		8294BF9E1B51A78F00FDCC86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8294BFA41B51DC5B00FDCC86 /* mp3file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mp3file.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8294BF0F1B516F3000FDCC86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8294BF9F1B51A78F00FDCC86 /* libHKWirelessHD.a in Frameworks */,
+				8294BF561B517A7400FDCC86 /* libz.dylib in Frameworks */,
+				8294BF541B517A6D00FDCC86 /* libbz2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8294BF241B516F3000FDCC86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8294BF091B516F3000FDCC86 = {
+			isa = PBXGroup;
+			children = (
+				8294BF941B51A78F00FDCC86 /* HKWirelessHDSDK */,
+				8294BF551B517A7400FDCC86 /* libz.dylib */,
+				8294BF531B517A6D00FDCC86 /* libbz2.dylib */,
+				8294BF141B516F3000FDCC86 /* ATT_Hackathon_Boston_2015 */,
+				8294BF2A1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests */,
+				8294BF131B516F3000FDCC86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8294BF131B516F3000FDCC86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF121B516F3000FDCC86 /* ATT_Hackathon_Boston_2015.app */,
+				8294BF271B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8294BF141B516F3000FDCC86 /* ATT_Hackathon_Boston_2015 */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF171B516F3000FDCC86 /* AppDelegate.swift */,
+				8294BF191B516F3000FDCC86 /* ViewController.swift */,
+				8294BF1B1B516F3000FDCC86 /* Main.storyboard */,
+				8294BFA41B51DC5B00FDCC86 /* mp3file.mp3 */,
+				8294BF1E1B516F3000FDCC86 /* Images.xcassets */,
+				8294BF201B516F3000FDCC86 /* LaunchScreen.xib */,
+				8294BF151B516F3000FDCC86 /* Supporting Files */,
+				8294BF571B517B7600FDCC86 /* Bridging_Header.h */,
+			);
+			path = ATT_Hackathon_Boston_2015;
+			sourceTree = "<group>";
+		};
+		8294BF151B516F3000FDCC86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF161B516F3000FDCC86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8294BF2A1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF2D1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.swift */,
+				8294BF2B1B516F3000FDCC86 /* Supporting Files */,
+			);
+			path = ATT_Hackathon_Boston_2015Tests;
+			sourceTree = "<group>";
+		};
+		8294BF2B1B516F3000FDCC86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF2C1B516F3000FDCC86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8294BF941B51A78F00FDCC86 /* HKWirelessHDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF951B51A78F00FDCC86 /* include */,
+				8294BF9B1B51A78F00FDCC86 /* lib */,
+				8294BF9D1B51A78F00FDCC86 /* License-iOS-Omni.pdf */,
+				8294BF9E1B51A78F00FDCC86 /* README.md */,
+			);
+			path = HKWirelessHDSDK;
+			sourceTree = "<group>";
+		};
+		8294BF951B51A78F00FDCC86 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF961B51A78F00FDCC86 /* DeviceGroup.h */,
+				8294BF971B51A78F00FDCC86 /* DeviceInfo.h */,
+				8294BF981B51A78F00FDCC86 /* HKWControlHandler.h */,
+				8294BF991B51A78F00FDCC86 /* HKWDeviceEventHandlerSingleton.h */,
+				8294BF9A1B51A78F00FDCC86 /* HKWPlayerEventHandlerSingleton.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8294BF9B1B51A78F00FDCC86 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8294BF9C1B51A78F00FDCC86 /* libHKWirelessHD.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8294BF111B516F3000FDCC86 /* ATT_Hackathon_Boston_2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8294BF311B516F3000FDCC86 /* Build configuration list for PBXNativeTarget "ATT_Hackathon_Boston_2015" */;
+			buildPhases = (
+				8294BF0E1B516F3000FDCC86 /* Sources */,
+				8294BF0F1B516F3000FDCC86 /* Frameworks */,
+				8294BF101B516F3000FDCC86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATT_Hackathon_Boston_2015;
+			productName = ATT_Hackathon_Boston_2015;
+			productReference = 8294BF121B516F3000FDCC86 /* ATT_Hackathon_Boston_2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8294BF261B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8294BF341B516F3000FDCC86 /* Build configuration list for PBXNativeTarget "ATT_Hackathon_Boston_2015Tests" */;
+			buildPhases = (
+				8294BF231B516F3000FDCC86 /* Sources */,
+				8294BF241B516F3000FDCC86 /* Frameworks */,
+				8294BF251B516F3000FDCC86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8294BF291B516F3000FDCC86 /* PBXTargetDependency */,
+			);
+			name = ATT_Hackathon_Boston_2015Tests;
+			productName = ATT_Hackathon_Boston_2015Tests;
+			productReference = 8294BF271B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8294BF0A1B516F3000FDCC86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Loi Cheng LLC";
+				TargetAttributes = {
+					8294BF111B516F3000FDCC86 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8294BF261B516F3000FDCC86 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8294BF111B516F3000FDCC86;
+					};
+				};
+			};
+			buildConfigurationList = 8294BF0D1B516F3000FDCC86 /* Build configuration list for PBXProject "ATT_Hackathon_Boston_2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8294BF091B516F3000FDCC86;
+			productRefGroup = 8294BF131B516F3000FDCC86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8294BF111B516F3000FDCC86 /* ATT_Hackathon_Boston_2015 */,
+				8294BF261B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8294BF101B516F3000FDCC86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8294BF1D1B516F3000FDCC86 /* Main.storyboard in Resources */,
+				8294BFA51B51DC5B00FDCC86 /* mp3file.mp3 in Resources */,
+				8294BF221B516F3000FDCC86 /* LaunchScreen.xib in Resources */,
+				8294BF1F1B516F3000FDCC86 /* Images.xcassets in Resources */,
+				8294BFA01B51A78F00FDCC86 /* License-iOS-Omni.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8294BF251B516F3000FDCC86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8294BF0E1B516F3000FDCC86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8294BFA11B51A78F00FDCC86 /* README.md in Sources */,
+				8294BF1A1B516F3000FDCC86 /* ViewController.swift in Sources */,
+				8294BF181B516F3000FDCC86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8294BF231B516F3000FDCC86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8294BF2E1B516F3000FDCC86 /* ATT_Hackathon_Boston_2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8294BF291B516F3000FDCC86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8294BF111B516F3000FDCC86 /* ATT_Hackathon_Boston_2015 */;
+			targetProxy = 8294BF281B516F3000FDCC86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8294BF1B1B516F3000FDCC86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8294BF1C1B516F3000FDCC86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8294BF201B516F3000FDCC86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8294BF211B516F3000FDCC86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8294BF2F1B516F3000FDCC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8294BF301B516F3000FDCC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8294BF321B516F3000FDCC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATT_Hackathon_Boston_2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HKWirelessHDSDKlw/lib",
+					"$(PROJECT_DIR)/HKWirelessHDSDKlw/HKWirelessHDSDK/lib",
+					"$(PROJECT_DIR)/HKWirelessHDSDK/lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ATT_Hackathon_Boston_2015/Bridging_Header.h;
+			};
+			name = Debug;
+		};
+		8294BF331B516F3000FDCC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATT_Hackathon_Boston_2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HKWirelessHDSDKlw/lib",
+					"$(PROJECT_DIR)/HKWirelessHDSDKlw/HKWirelessHDSDK/lib",
+					"$(PROJECT_DIR)/HKWirelessHDSDK/lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ATT_Hackathon_Boston_2015/Bridging_Header.h;
+			};
+			name = Release;
+		};
+		8294BF351B516F3000FDCC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ATT_Hackathon_Boston_2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATT_Hackathon_Boston_2015.app/ATT_Hackathon_Boston_2015";
+			};
+			name = Debug;
+		};
+		8294BF361B516F3000FDCC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ATT_Hackathon_Boston_2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATT_Hackathon_Boston_2015.app/ATT_Hackathon_Boston_2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8294BF0D1B516F3000FDCC86 /* Build configuration list for PBXProject "ATT_Hackathon_Boston_2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8294BF2F1B516F3000FDCC86 /* Debug */,
+				8294BF301B516F3000FDCC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8294BF311B516F3000FDCC86 /* Build configuration list for PBXNativeTarget "ATT_Hackathon_Boston_2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8294BF321B516F3000FDCC86 /* Debug */,
+				8294BF331B516F3000FDCC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8294BF341B516F3000FDCC86 /* Build configuration list for PBXNativeTarget "ATT_Hackathon_Boston_2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8294BF351B516F3000FDCC86 /* Debug */,
+				8294BF361B516F3000FDCC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8294BF0A1B516F3000FDCC86 /* Project object */;
+}
