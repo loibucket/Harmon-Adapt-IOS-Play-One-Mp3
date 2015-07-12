@@ -18,7 +18,7 @@
 		8294BF9F1B51A78F00FDCC86 /* libHKWirelessHD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8294BF9C1B51A78F00FDCC86 /* libHKWirelessHD.a */; };
 		8294BFA01B51A78F00FDCC86 /* License-iOS-Omni.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8294BF9D1B51A78F00FDCC86 /* License-iOS-Omni.pdf */; };
 		8294BFA11B51A78F00FDCC86 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8294BF9E1B51A78F00FDCC86 /* README.md */; };
-		8294BFA51B51DC5B00FDCC86 /* mp3file.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8294BFA41B51DC5B00FDCC86 /* mp3file.mp3 */; };
+		8294BFA71B520C7E00FDCC86 /* mp3file.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8294BFA61B520C7E00FDCC86 /* mp3file.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		8294BF9C1B51A78F00FDCC86 /* libHKWirelessHD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHKWirelessHD.a; sourceTree = "<group>"; };
 		8294BF9D1B51A78F00FDCC86 /* License-iOS-Omni.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "License-iOS-Omni.pdf"; sourceTree = "<group>"; };
 		8294BF9E1B51A78F00FDCC86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8294BFA41B51DC5B00FDCC86 /* mp3file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mp3file.mp3; sourceTree = "<group>"; };
+		8294BFA61B520C7E00FDCC86 /* mp3file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mp3file.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				8294BF171B516F3000FDCC86 /* AppDelegate.swift */,
 				8294BF191B516F3000FDCC86 /* ViewController.swift */,
 				8294BF1B1B516F3000FDCC86 /* Main.storyboard */,
-				8294BFA41B51DC5B00FDCC86 /* mp3file.mp3 */,
 				8294BF1E1B516F3000FDCC86 /* Images.xcassets */,
+				8294BFA61B520C7E00FDCC86 /* mp3file.mp3 */,
 				8294BF201B516F3000FDCC86 /* LaunchScreen.xib */,
 				8294BF151B516F3000FDCC86 /* Supporting Files */,
 				8294BF571B517B7600FDCC86 /* Bridging_Header.h */,
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8294BF1D1B516F3000FDCC86 /* Main.storyboard in Resources */,
-				8294BFA51B51DC5B00FDCC86 /* mp3file.mp3 in Resources */,
+				8294BFA71B520C7E00FDCC86 /* mp3file.mp3 in Resources */,
 				8294BF221B516F3000FDCC86 /* LaunchScreen.xib in Resources */,
 				8294BF1F1B516F3000FDCC86 /* Images.xcassets in Resources */,
 				8294BFA01B51A78F00FDCC86 /* License-iOS-Omni.pdf in Resources */,
